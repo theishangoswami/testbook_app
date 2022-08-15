@@ -1,5 +1,6 @@
-import 'dart:html';
+import 'dart:io';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -71,16 +72,12 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       stories: [
                         Scaffold(
-                          bottomSheet: Text(
-                            "Scroll up",
-                            style: TextStyle(color: Colors.white),
-                          ),
                           body: Container(
                             decoration: const BoxDecoration(
                               image: DecorationImage(
                                 fit: BoxFit.cover,
                                 image: NetworkImage(
-                                  "https://wallpaperaccess.com/full/16568.png",
+                                  "https://play-lh.googleusercontent.com/eRl9qxP5vRXc_7929GplA4xA16V_riSEwbHNlH-LR3NRPGrtuIk23NSRMWnztFUk0g=w800-h500",
                                 ),
                               ),
                             ),
