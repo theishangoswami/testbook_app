@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:testbook/constants/colors.dart';
 import 'package:testbook/screens/homescreen_module/homescreen.dart';
+import 'package:testbook/widgets/bottom_nav_bar.dart';
 
 void main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
@@ -54,7 +55,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const HomeScreen(),
+      home: const BottomNavBarScreen(),
     );
   }
 }
