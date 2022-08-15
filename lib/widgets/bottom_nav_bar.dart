@@ -93,7 +93,7 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
                     size: 20,
                   ),
                 ),
-                label: 'SkillAcademy',
+                label: 'SkillAca..',
               ),
               // BottomNavigationBarItem(
               //   icon: Padding(

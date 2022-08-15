@@ -7,6 +7,8 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:stories_for_flutter/stories_for_flutter.dart';
 import 'package:testbook/constants/colors.dart';
 import 'package:testbook/widgets/carousel.dart';
+import 'package:testbook/widgets/daily_current_affairs.dart';
+import 'package:testbook/widgets/options_section.dart';
 import 'package:testbook/widgets/stories.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -58,14 +60,21 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         body: Column(
           children: [
+            const SizedBox(
+              height: 10,
+            ),
+            const HeaderStories(),
             SizedBox(
               height: 10,
             ),
-            HeaderStories(),
             CarouselWithIndicatorDemo(),
-            Text("Testbook"),
-            SizedBox(
-              height: 50,
+            const OptionsSection(),
+            const SizedBox(
+              height: 10,
+            ),
+            const Current_Affairs_Widget(),
+            const SizedBox(
+              height: 10,
             ),
           ],
         ));

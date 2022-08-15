@@ -85,6 +85,9 @@ class _CarouselWithIndicatorState extends State<CarouselWithIndicatorDemo> {
                     }),
               ),
             ),
+            const SizedBox(
+              height: 10,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -92,8 +95,8 @@ class _CarouselWithIndicatorState extends State<CarouselWithIndicatorDemo> {
                 return GestureDetector(
                   onTap: () => _controller.animateToPage(entry.key),
                   child: Container(
-                    width: 10.0,
-                    height: 10.0,
+                    width: 8.0,
+                    height: 8.0,
                     margin: EdgeInsets.symmetric(horizontal: 2.0),
                     decoration: BoxDecoration(
                         shape: BoxShape.circle,
@@ -105,7 +108,10 @@ class _CarouselWithIndicatorState extends State<CarouselWithIndicatorDemo> {
                 );
               }).toList(),
             ),
-            Spacer(),
+            const SizedBox(
+              height: 10,
+            ),
+            //Spacer(),
           ]),
     );
   }
