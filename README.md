@@ -1,6 +1,6 @@
 # Testbook UI Clone
 
-Made a UI clone of the Testbook Android App using Flutter. Built it to experience and explore the testbook app before it's interview.
+Made a UI clone of the Testbook Android App using Flutter. Built it to experience and explore the testbook app. Bulding this was pretty fun.
 
 ## Getting Started
 
