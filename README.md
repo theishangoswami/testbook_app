@@ -2,15 +2,8 @@
 
 Made a UI clone of the Testbook Android App using Flutter. Built it to experience and explore the testbook app. Bulding this was pretty fun.
 
-## Getting Started
+## Screenshot of the App
 
-This project is a starting point for a Flutter application.
+![Simulator Screen Shot - iPhone 13 Pro - 2022-08-16 at 00 34 35](https://user-images.githubusercontent.com/26306586/184704336-f4d184f4-db41-4821-9dc9-d0e32c4355d2.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
