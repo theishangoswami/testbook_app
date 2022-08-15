@@ -4,6 +4,8 @@ import 'package:testbook/constants/colors.dart';
 import 'package:testbook/screens/homescreen_module/homescreen.dart';
 import 'package:testbook/widgets/bottom_nav_bar.dart';
 
+import 'widgets/carousel.dart';
+
 void main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());

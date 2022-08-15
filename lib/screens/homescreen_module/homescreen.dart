@@ -6,6 +6,7 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:stories_for_flutter/stories_for_flutter.dart';
 import 'package:testbook/constants/colors.dart';
+import 'package:testbook/widgets/carousel.dart';
 import 'package:testbook/widgets/stories.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -19,6 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Color(0xFFedf1f4),
         appBar: AppBar(
           leading: Icon(
             Icons.menu,
@@ -60,7 +62,11 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 10,
             ),
             HeaderStories(),
+            CarouselWithIndicatorDemo(),
             Text("Testbook"),
+            SizedBox(
+              height: 50,
+            ),
           ],
         ));
   }
